@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerTradeJob", "PowerTradeJob.csproj", "{F877F319-041A-4700-AE35-7A1A468345E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerTradeTest", "..\PowerTradeTest\PowerTradeTest.csproj", "{C1E563C6-D5F7-49CC-8A1D-50F3C4203BC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerTradeTestProject", "PowerTradeTestProject\PowerTradeTestProject.csproj", "{A17E8EE0-DF6C-4857-8685-6F08A1D16F0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F877F319-041A-4700-AE35-7A1A468345E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F877F319-041A-4700-AE35-7A1A468345E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F877F319-041A-4700-AE35-7A1A468345E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1E563C6-D5F7-49CC-8A1D-50F3C4203BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1E563C6-D5F7-49CC-8A1D-50F3C4203BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1E563C6-D5F7-49CC-8A1D-50F3C4203BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1E563C6-D5F7-49CC-8A1D-50F3C4203BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17E8EE0-DF6C-4857-8685-6F08A1D16F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17E8EE0-DF6C-4857-8685-6F08A1D16F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17E8EE0-DF6C-4857-8685-6F08A1D16F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17E8EE0-DF6C-4857-8685-6F08A1D16F0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

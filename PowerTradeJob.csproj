@@ -5,13 +5,19 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-PowerTradeJob-b210ef3f-a669-4402-8556-59feacba780f</UserSecretsId>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="FakesAssemblies\**" />
+    <Compile Remove="PowerTradeTestProject\**" />
     <Content Remove="FakesAssemblies\**" />
+    <Content Remove="PowerTradeTestProject\**" />
     <EmbeddedResource Remove="FakesAssemblies\**" />
+    <EmbeddedResource Remove="PowerTradeTestProject\**" />
     <None Remove="FakesAssemblies\**" />
+    <None Remove="PowerTradeTestProject\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +25,8 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
     <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="6.0.1" />
     <PackageReference Include="Microsoft.QualityTools.Testing.Fakes" Version="16.11.230815" />
+    <PackageReference Include="Moq" Version="4.20.69" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
     <PackageReference Include="Polly" Version="7.2.4" />
   </ItemGroup>
 
