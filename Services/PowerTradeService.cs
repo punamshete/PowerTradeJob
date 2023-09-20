@@ -55,6 +55,11 @@ namespace PowerTradeJob.Services
             }
         }
 
+        /// <summary>
+        /// Generate report for power trades data
+        /// </summary>
+        /// <param name="LocalTime"></param>
+        /// <param name="trades"></param>
         public void GenerateReport(DateTime LocalTime, IEnumerable<Trade> trades)
         {
             try

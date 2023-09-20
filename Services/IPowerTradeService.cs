@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace PowerTradeJob.Services
 {
     /// <summary>
-    /// Interface to get Power grades data and generate report
+    /// Interface to get power grade data and generate report
     /// </summary>
     public interface IPowerTradeService
     {

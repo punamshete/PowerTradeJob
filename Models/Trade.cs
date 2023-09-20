@@ -25,9 +25,6 @@ namespace PowerTradeJob.Models
         /// </summary>
         public List<TradePeriod> Periods { get; }
 
-        public override string ToString()
-        {
-            return $"Date={Date}    Periods={this.Periods?.Count}";
-        }
+        
     }
 }
